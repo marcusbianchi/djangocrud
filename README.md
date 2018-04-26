@@ -55,7 +55,7 @@ A REST api with interface
     ```
     You can now access the file api service on your browser by using
     ```
-        http://localhost:8000/admin/
+        http://localhost:8000/
     ```
     There you will be able to see and manage the people entity.
 
