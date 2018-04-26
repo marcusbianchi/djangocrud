@@ -40,6 +40,13 @@ A REST api with interface
             $ python manage.py createsuperuser
         ```
 
+* #### Test It
+    
+    Test using this one simple command:
+    ```bash
+        $ python manage.py test
+    ```
+
 * #### Run It
     
     Fire up the server using this one simple command:
@@ -52,8 +59,7 @@ A REST api with interface
     ```
     There you will be able to see and manage the people entity.
 
-* #### Run It
-    To get using RESTFormat:
+    To get use ir RESTFormat:
      ```bash
-        http://localhost:8000/admin/
+        curl -H "Content-Type: application/javascript" http://localhost:8000/people/
     ```
